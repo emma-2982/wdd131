@@ -1,0 +1,98 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+h1,
+h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+header {
+    text-align: center;
+    padding: 1rem;
+    background-color: #004080;
+    color: white;
+}
+
+#course-title {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+nav ul {
+    display: flex;
+    align-items:  center;
+    gap: 2rem;
+    background-color: #003366;
+    padding: 0.5rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #0055aa;
+    border-radius: 5px;
+}
+
+main {
+    display: grid;
+    max-width: 9000px;
+    margin: 0 auto;
+    padding: 0rem;
+    display: flex;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #f5f5f5;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    margin-left: 0rem;
+    border-radius: 8px;
+}
+
+.card img {
+    width: 30%;
+    height: auto;
+    border-radius: 6px;
+}
+
+.card h2 {
+    grid-column: 1 / -1;
+    margin-bottom: 0.5rem;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+.card p {
+    font-family: 'Open Sans', sans-serif;
+    color: #555;
+}
+
+
+
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #004080;
+    color: white;
+}
+
