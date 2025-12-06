@@ -4,78 +4,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131 - Dynamic Web Fundamentals - Emmanuel Kofi Teye</title>
-    <meta name="description"
-        content="WDD 131 - Dynamic Web Fundamentals course home page by Emmanuel Kofi Teye, featuring HTML, JavaScript, and responsive design for BYU-Idaho web development course work. ">
-    <meta name="author" content="Emmanuel Kofi Teye">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Playfair+Display&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="../styles/base.css">
-
-
+    <title>My Website</title>
+    <link rel="stylesheet" href="..//styles/coffeewebsite.css">
 </head>
 
 <body>
     <header>
-        <span id="course-title">WDD 131 - Dynamic Web Fundamentals-Emmanuel Kofi Teye</span>
+        <h1>Cornerstone Coffee House</h1>
+        <img src="../images/logo (1).jpg" alt="Site Logo" style="width:150px;height:auto;">
         <nav>
             <ul>
-                <li><a href="https://www.linkedin.com/in/emmanuel-teye-736526379/" target="_blank"
-                        rel="noopener">LinkedIn</a></li>
-                <li><a href="https://byupw.instructure.com/" target="_blank" rel="noopener">Canvas</a></li>
-                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p7#p7"
-                        target="_blank">Favorite Scripture</a></li>
-                <li><a href="#">Final Project</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="references.html">References</a></li>
             </ul>
         </nav>
     </header>
+
     <main>
-        <h1>Emmanuel Kofi Teye</h1>
-
-        <section class="card">
-            <img src="../images/emma.jpg" alt="Portrait of Emmanuel" width="200" height="200">
-            <div>
-                <h2>About Me</h2>
-                <p>
-                    Hello! My name is Emmanuel Kofi Teye. I’m a web development student who enjoys
-                    designing modern, responsive websites using HTML, CSS, and JavaScript.
-                </p>
-
-            </div>
+        <section>
+            <h2>Site Purpose</h2>
+            <p>The site serves as the welcoming online home for the cafe', providing menu information, building commujnity
+                and fellowship, sharing our mission and values, and highlighting business purposes and social impact.</p>
+            <button id="changeTextBtn">Click Me</button>
         </section>
 
-        <section class="card">
-            <img src="..//images/emma-project.jpg" alt="Coding illustration" width="200" height="200">
-            <div>
-                <h2>My Interests</h2>
-                <p>
-                    I enjoy coding, solving real-world problems through technology, and exploring
-                    creative designs that make user experiences better.
-                </p>
-            </div>
+        <section>
+            <h2>Favorite Items</h2>
+            <ul id="itemList"></ul>
+            <input type="text" id="newItem" placeholder="Add a new item">
+            <button id="addItemBtn">Add Item</button>
         </section>
     </main>
 
-
-
-
     <footer>
-        <p>
-            &copy; <span id="currentyear"></span> Emmanuel Kofi Teye, Accra Ghana
-        </p>
-
-        <p id="lastModified"></p>
-
+        <p>&copy; 2025 My Website | <a href="references.html">References</a></p>
     </footer>
-    <script src="../scripts/getdates.js" defer></script>
 
-
+    <script src="..//scripts/coffeejava.js"></script>
 </body>
-
-
 
 </html>
